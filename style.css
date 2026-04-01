@@ -1,0 +1,84 @@
+body{
+    background-color:rgb(237, 236, 234);
+    border: 3px solid rgb(20, 15, 15);
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.cabecalho{
+    background-color:rgb(247, 246, 246);
+    color:rgba(0, 0, 11, 0.849);
+    padding: 10px 10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.topo-esquerda{
+    display:flex;
+    align-items:center;
+    gap:17px;
+    flex-wrap: wrap;
+}
+.topo-esquerda a{
+    color:rgb(8, 62, 62);
+    text-decoration:none;
+    font-weight:bold;
+}
+.topo-esquerda a:hover{
+    color:blueviolet;
+}
+.topo-direita{
+    display:flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.topo-direita input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+.topo-direita input:hover{
+    background-color:bisque;
+}
+.topo-direita button:hover{
+    background-color:bisque;
+    color:rgb(0, 0, 0);
+}
+.separador{
+    height: 3px;
+    background-color:black;
+}
+.fundo-pagina{
+    background-color: rgb(252, 252, 252);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;    
+    display: flex;
+    justify-content: center;
+}
+.caixa-de-login{
+    margin-top: 100px ;
+    width: 500px;
+    height: 700px;
+    background-image:url("brasil01.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+.form-login{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    padding-top: 160px;
+    display: flex;
+}
+.hh2{
+    color:antiquewhite;
+}
+
